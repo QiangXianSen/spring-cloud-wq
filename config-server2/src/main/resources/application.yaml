@@ -1,0 +1,18 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: config-server
+  cloud:
+      config:
+        server:
+          git:
+            uri: https://github.com/QiangXianSen/SpringcloudConfig.git  # 配置git仓库的地址
+            search-paths: respo                                         # git仓库地址下的相对地址，可以配置多个，用,分割。
+            lebel: master                                               # 分支
+            username: QiangXianSen                                      # git仓库的账号
+            password: qiangge520                                        # git仓库的密码
+eureka:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8888/eureka/   # 注册中心eurka地址
