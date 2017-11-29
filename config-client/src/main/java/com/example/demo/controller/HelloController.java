@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloController {
-    @Value("${spring.cloud.config.name}")
+    @Value("${server.port}")
     private String hello;
 
     @RequestMapping("/hello")
