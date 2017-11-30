@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloController {
-    @Value("${server.port}")
+    @Value("${spring.rabbitmq.port}")
     private String hello;
 
     @RequestMapping("/hello")

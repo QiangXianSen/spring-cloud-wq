@@ -12,7 +12,15 @@ spring:
             lebel: master                                               # 分支
             username: QiangXianSen                                      # git仓库的账号
             password: qiangge520                                        # git仓库的密码
+  rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
 eureka:
     client:
       serviceUrl:
         defaultZone: http://localhost:8888/eureka/   # 注册中心eurka地址
+management:
+  security:
+     enabled: false
