@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="chapter1" />
         <module name="config-client" />
+        <module name="config-client2" />
         <module name="config-server" />
         <module name="config-server2" />
         <module name="eureka-server" />
@@ -34,15 +35,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="chapter1" target="1.5" />
-      <module name="config-client" target="1.7" />
-      <module name="config-server" target="1.7" />
-      <module name="config-server2" target="1.7" />
-      <module name="eureka-server" target="1.7" />
-      <module name="service-feign" target="1.7" />
-      <module name="service-hi" target="1.7" />
-      <module name="service-ribbon" target="1.7" />
-      <module name="spring-cloud-demo" target="1.7" />
+      <module name="config-client" target="1.8" />
+      <module name="config-client2" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="config-server2" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="service-feign" target="1.8" />
+      <module name="service-hi" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="spring-cloud-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
